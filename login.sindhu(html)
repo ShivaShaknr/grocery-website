@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<title>Login Form </title>
+    <link rel="stylesheet" type="text/css" href="sindhu(login).css">
+    <script type="text/javascript" src="sindhu(login).js"></script>
+<body>
+
+
+    <div class="box">
+    <img src="https://raw.githubusercontent.com/kartarkat/wesbite---form-design-and-validation/master/user.png" class="user">
+        <h1>LOGIN</h1>
+
+        <form name="myform" onsubmit="return vfun()">
+
+            <p>USERNAME</p>
+            <input type="text" name="uname" placeholder="Enter Username">
+
+            <p>PASSWORD</p>
+            <input type="password" name="upswd" placeholder="Enter Password">
+
+             <div id="errorBox"></div>
+            <input type="submit" name="" value="Login">
+
+            <br><br>
+            <a href="sindhu(reg).html">REGISTER</a>
+
+        </form>
+        
+    </div>
+
+    
+
+</body>
+</head>
+</html>
