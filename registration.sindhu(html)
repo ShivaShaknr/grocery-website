@@ -26,7 +26,7 @@
             <input type="number" name="upswd2" placeholder="Enter mob.no">
 
             <p><b>FAVOURITE COLOR</b></p>
-            <input type="number" name="upswd2" placeholder="Enter favourite color">
+            <input type="text" name="upswd2" placeholder="Enter favourite color">
 
              <div id="errorBox"></div>
             <input type="submit" name="" value="Register">
